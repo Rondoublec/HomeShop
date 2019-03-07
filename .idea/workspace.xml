@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96e4cd9d-1d35-407c-893d-674cfbbd9dc6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/rbo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/rbo/garage/car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/rbo/garage/vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/rbo/homeshop/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/rbo/homeshop/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/rbo/homeshop/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/rbo/miam/Aliment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/rbo/miam/Four.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/rbo/miam/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/rbo/miam/Resistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/rbo/miam/Soufflerie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fr/rbo/homeshop/BillTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fr/rbo/homeshop/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fr/rbo/homeshop/ProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/rbo/garage/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/rbo/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/rbo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/rbo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/rbo/garage/car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/rbo/garage/car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/rbo/garage/vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/rbo/garage/vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/rbo/homeshop/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/rbo/homeshop/Bill.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,10 +19,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/rbo/miam/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/fr/rbo/homeshop/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+            <state relative-caret-position="68">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <folding>
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,30 +41,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/rbo/garage/Vehicle.java">
+        <entry file="file://$PROJECT_DIR$/src/fr/rbo/homeshop/Bill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="102">
+              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
               <folding>
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
-                <element signature="e#829#830#0" expanded="true" />
-                <element signature="e#907#908#0" expanded="true" />
-                <element signature="e#975#976#0" expanded="true" />
-                <element signature="e#1013#1014#0" expanded="true" />
-                <element signature="e#1047#1048#0" expanded="true" />
-                <element signature="e#1086#1087#0" expanded="true" />
-                <element signature="e#1121#1122#0" expanded="true" />
-                <element signature="e#1149#1150#0" expanded="true" />
-                <element signature="e#1176#1177#0" expanded="true" />
-                <element signature="e#1208#1209#0" expanded="true" />
-                <element signature="e#1236#1237#0" expanded="true" />
-                <element signature="e#1265#1266#0" expanded="true" />
-                <element signature="e#1293#1294#0" expanded="true" />
-                <element signature="e#1329#1330#0" expanded="true" />
-                <element signature="e#1362#1363#0" expanded="true" />
-                <element signature="e#1392#1393#0" expanded="true" />
-                <element signature="e#1421#1422#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,20 +55,90 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/rbo/garage/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="272">
+              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#1017#1018#0" expanded="true" />
+                <element signature="e#1074#1075#0" expanded="true" />
+                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1161#1162#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#1216#1217#0" expanded="true" />
+                <element signature="e#1253#1254#0" expanded="true" />
+                <element signature="e#1289#1290#0" expanded="true" />
+                <element signature="e#1321#1322#0" expanded="true" />
+                <element signature="e#1349#1350#0" expanded="true" />
+                <element signature="e#1389#1390#0" expanded="true" />
+                <element signature="e#1419#1420#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/rbo/garage/Vehicle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/rbo/garage/Bike.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="141" selection-start-line="3" selection-start-column="141" selection-end-line="3" selection-end-column="141" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fr/rbo/package-info.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/rbo/homeshop/Television.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/rbo/homeshop/Fridge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/rbo/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="323">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,6 +151,7 @@
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -120,13 +169,17 @@
         <option value="$PROJECT_DIR$/test/fr/rbo/homeshop/CustomerTest.java" />
         <option value="$PROJECT_DIR$/test/fr/rbo/homeshop/BillTest.java" />
         <option value="$PROJECT_DIR$/src/fr/rbo/homeshop/Customer.java" />
-        <option value="$PROJECT_DIR$/src/fr/rbo/homeshop/Bill.java" />
         <option value="$PROJECT_DIR$/src/fr/rbo/homeshop/Product.java" />
         <option value="$PROJECT_DIR$/src/fr/rbo/miam/Four.java" />
         <option value="$PROJECT_DIR$/src/fr/rbo/miam/Main.java" />
         <option value="$PROJECT_DIR$/src/fr/rbo/garage/vehicle.java" />
         <option value="$PROJECT_DIR$/src/fr/rbo/garage/car.java" />
+        <option value="$PROJECT_DIR$/src/fr/rbo/homeshop/Television.java" />
+        <option value="$PROJECT_DIR$/src/fr/rbo/homeshop/Fridge.java" />
+        <option value="$PROJECT_DIR$/src/fr/rbo/homeshop/Bill.java" />
         <option value="$PROJECT_DIR$/src/fr/rbo/garage/Car.java" />
+        <option value="$PROJECT_DIR$/src/fr/rbo/garage/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/fr/rbo/garage/Bike.java" />
         <option value="$PROJECT_DIR$/src/fr/rbo/Main.java" />
       </list>
     </option>
@@ -140,16 +193,18 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="582" />
-    <option name="y" value="147" />
+    <option name="x" value="-1858" />
+    <option name="y" value="133" />
     <option name="width" value="1338" />
-    <option name="height" value="891" />
+    <option name="height" value="868" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,8 +257,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,11 +266,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551963048432" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551988804633" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MonProjet3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -284,18 +337,19 @@
       <workItem from="1550841889326" duration="1029000" />
       <workItem from="1550844057944" duration="28000" />
       <workItem from="1550846401360" duration="4375000" />
-      <workItem from="1551945487306" duration="4426000" />
+      <workItem from="1551945487306" duration="8168000" />
+      <workItem from="1551969972332" duration="1925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14245000" />
+    <option name="totallyTimeSpent" value="19912000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="582" y="147" width="1338" height="891" extended-state="0" />
+    <frame x="-1858" y="133" width="1338" height="868" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26917058" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27308294" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -304,7 +358,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32938075" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32938075" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -312,7 +366,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32894737" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33831522" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32894737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -409,35 +463,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/rbo/homeshop/Bill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/rbo/miam/Aliment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/rbo/homeshop/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/rbo/homeshop/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -452,7 +481,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="43.0" y="238.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="43.0" y="239.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -466,10 +495,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/rbo/homeshop/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/rbo/miam/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/rbo/homeshop/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -480,50 +527,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/rbo/garage/Vehicle.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/rbo/homeshop/Bill.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding>
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1121#1122#0" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-            <element signature="e#1236#1237#0" expanded="true" />
-            <element signature="e#1265#1266#0" expanded="true" />
-            <element signature="e#1293#1294#0" expanded="true" />
-            <element signature="e#1329#1330#0" expanded="true" />
-            <element signature="e#1362#1363#0" expanded="true" />
-            <element signature="e#1392#1393#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/rbo/garage/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="102">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/rbo/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/rbo/homeshop/Television.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="289">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/rbo/homeshop/Fridge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/rbo/garage/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
+            <element signature="e#1289#1290#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+            <element signature="e#1419#1420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/rbo/garage/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/rbo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/rbo/garage/Bike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="141" selection-start-line="3" selection-start-column="141" selection-end-line="3" selection-end-column="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/rbo/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
