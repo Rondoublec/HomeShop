@@ -10,9 +10,6 @@ public abstract class Vehicle {
     private int[] dimensions = new int[3];
     private int weight;
 
-    public Vehicle() {
-    }
-
     public Vehicle(String modelName, String description, String manufacturer, int yeah, String color, int speed, int[] dimensions, int weight) {
         this.modelName = modelName;
         this.description = description;
