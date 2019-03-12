@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class BillTest {
+class BillTest {
     private String output;
     private Writer writerMock = new Writer() {
         @Override
@@ -21,6 +21,7 @@ public class BillTest {
         public void stop() {
         }
     };
+
     private Product cafe = new Product("Philips HD7866/61", "Philips SENSEO Quadrante, Noir - 1 ou 2 tasses", 79.99);
     private Product tv = new Television("TV Samsung UE49MU6292", "Smart TV LED incurvée 49\"", 599, 49, "LED");
     private Fridge fridge = new Fridge("BEKO TSE 1042 F", "Réfrigérateur BEKO 130L - Classe A+ - blanc", 189, 130, false);
@@ -45,4 +46,11 @@ public class BillTest {
         bill.addProduct(fridge, 1);
         assertEquals(870.98, bill.getTotal(), 0.01);
     }
+
+    @Test
+    public void Given_emptyProductList_generatingBill_Then_throwsException() {
+        Bill bill = new Bill(customer, lowCostRelayDelivery);
+        assertThrows(NoProductInBillException.class, () -> bill.generate(writerMock));
+    }
+
 }

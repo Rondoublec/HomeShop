@@ -30,6 +30,8 @@ public class Bill {
      * @param writer object in charge of writing
      */
     public void generate(Writer writer) {
+        if (products.isEmpty())
+            throw new NoProductInBillException();
         writer.start();
         writer.writeLine("HomeShop compagnie");
         writer.writeLine("1 Place Charles de Gaulle, 75008 Paris");
@@ -38,8 +40,7 @@ public class Bill {
         writer.writeLine(customer.getFullname());
         writer.writeLine(customer.getAddress());
         writer.writeLine("");
-        writer.writeLine("Mode de livraison :  + delivery.getInfo()");
-//        writer.writeLine("Mode de livraison : " + delivery.getInfo());
+        writer.writeLine("Mode de livraison : " + delivery.getInfo());
         writer.writeLine("");
         writer.writeLine("Produits : ");
         writer.writeLine("-----------------------------------------------------");
