@@ -3,22 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="96e4cd9d-1d35-407c-893d-674cfbbd9dc6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facture_leblanc" beforeDir="false" afterPath="$PROJECT_DIR$/facture_leblanc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeShop/fr/rbo/homeshop/Bill.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeShop/fr/rbo/homeshop/Bill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeShop/fr/rbo/homeshop/Delivery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeShop/fr/rbo/homeshop/Delivery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeShop/fr/rbo/homeshop/DirectDelivery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeShop/fr/rbo/homeshop/DirectDelivery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeShop/fr/rbo/homeshop/ExpressDelivery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeShop/fr/rbo/homeshop/ExpressDelivery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeShop/fr/rbo/homeshop/RelayDelivery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeShop/fr/rbo/homeshop/RelayDelivery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeShop/fr/rbo/homeshop/TakeAwayDelivery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeShop/fr/rbo/homeshop/TakeAwayDelivery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HomeShop/fr/rbo/homeshop/BillTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/HomeShop/fr/rbo/homeshop/BillTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/rbo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/rbo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/rbo/homeshop/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/rbo/homeshop/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/rbo/homeshop/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/rbo/homeshop/Delivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/rbo/homeshop/DirectDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/rbo/homeshop/DirectDelivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/rbo/homeshop/ExpressDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/rbo/homeshop/ExpressDelivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/rbo/homeshop/RelayDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/rbo/homeshop/RelayDelivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/rbo/homeshop/TakeAwayDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/rbo/homeshop/TakeAwayDelivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fr/rbo/homeshop/BillTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/fr/rbo/homeshop/BillTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +27,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fr/rbo/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="238">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
@@ -192,8 +176,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1378" />
-    <option name="y" value="20" />
+    <option name="x" value="542" />
+    <option name="y" value="30" />
     <option name="width" value="1338" />
     <option name="height" value="1006" />
   </component>
@@ -209,31 +193,6 @@
             <path>
               <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="rbo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="rbo" type="462c0819:PsiDirectoryNode" />
-              <item name="garage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="rbo" type="462c0819:PsiDirectoryNode" />
-              <item name="homeshop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
@@ -264,7 +223,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552385926103" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552389265051" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -388,12 +347,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25646000" />
+    <option name="totallyTimeSpent" value="26376000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1378" y="20" width="1338" height="1006" extended-state="0" />
+    <frame x="542" y="30" width="1338" height="1006" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29186228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29186228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -402,7 +361,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36155605" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36155605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -410,7 +369,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.25829875" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.25743708" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3272311" />
       <window_info anchor="bottom" id="Sequence" order="13" />
@@ -692,7 +651,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/rbo/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="238">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
